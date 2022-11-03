@@ -1,99 +1,99 @@
 {
     "questions": [
         {
-            "questionText": "Which of the following does TypeScript use to specify types?",
+            "questionText": "Which of the following option leads to the portability and security of Java?",
             "options": [
                 {
-                    "text": ":",
+                    "text": "Bytecode is executed by JVM",
                     "correct": true
                 },
                 {
-                    "text": ";"
+                    "text": "The applet makes the Java code secure and portable"
                 },
                 {
-                    "text": "!"
+                    "text": "Use of exception handling"
                 },
                 {
-                    "text": "&"
+                    "text": "Dynamic binding between objects"
                 }
             ],
-            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+            "explanation": "The output of the Java compiler is bytecode, which leads to the security and portability of the Java code. "
         },
         {
-            "questionText": "Which of the following is NOT a type used in TypeScript?",
+            "questionText": "Which of the following is not a Java features?",
             "options": [
                 {
-                    "text": "number"
+                    "text": "Dynamic"
                 },
                 {
-                    "text": "string"
+                    "text": "Architecture Neutral"
                 },
                 {
-                    "text": "boolean"
+                    "text": "Object-oriented"
                 },
                 {
-                    "text": "enum",
+                    "text": "Use of pointers",
                     "correct": true
                 }
             ],
-            "explanation": "enum is not used as a type in TypeScript"
+            "explanation": "Java provides an effective layer of abstraction to the developers by not using pointers in Java."
         },
         {
-            "questionText": "How can we specify properties and methods for an object in TypeScript?",
+            "questionText": "The \u0021 article referred to as a",
             "options": [
                 {
-                    "text": "Use classes."
+                    "text": "Octal escape"
                 },
                 {
-                    "text": "Use interfaces.",
+                    "text": "Unicode escape sequence",
                     "correct": true
                 },
                 {
-                    "text": "Use enums."
+                    "text": "Hexadecimal"
                 },
                 {
-                    "text": "Use async/await."
+                    "text": "Line feed"
                 }
             ],
-            "explanation": "interfaces are typically used to list the properties and methods for an object"
+            "explanation": "In Java, Unicode characters can be used in string literals, comments, and commands, and are expressed by Unicode Escape Sequences."
         },
         {
-            "questionText": "How else can Array<number> be written in TypeScript?",
+            "questionText": " _____ is used to find and fix bugs in the Java programs.",
             "options": [
                 {
-                    "text": "@number"
+                    "text": "JVM"
                 },
                 {
-                    "text": "number[]",
+                    "text": "JDB",
                     "correct": true
                 },
                 {
-                    "text": "number!"
+                    "text": "JRE"
                 },
                 {
-                    "text": "number?"
+                    "text": "jdk"
                 }
             ],
-            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+            "explanation": "The Java Debugger (JDB or jdb) is a command-line java debugger that debugs the java class. "
         },
         {
-            "questionText": "In which of these does a class take parameters?",
+            "questionText": "What is the return type of the hashCode() method in the Object class?",
             "options": [
                 {
-                    "text": "constructor",
+                    "text": "int",
                     "correct": true
                 },
                 {
-                    "text": "destructor"
+                    "text": "Object"
                 },
                 {
-                    "text": "import"
+                    "text": "long"
                 },
                 {
-                    "text": "subscribe"
+                    "text": "void"
                 }
             ],
-            "explanation": "a constructor is used by a class to take in parameters"
+            "explanation": "In Java, the return type of hashCode() method is an integer, as it returns a hash code value for the object."
         },
         {
             "questionText": "Which is NOT an access modifier?",
@@ -112,64 +112,83 @@
                     "correct": true
                 }
             ],
-            "explanation": "async is not used as an access modifier type in TypeScript"
+            "explanation": "async is not used as an access modifier type in Java"
         },
         {
-            "questionText": "Which keyword allows us to share information between files in TypeScript?",
+            "questionText": "Which of the following is not a class of constraint in SQL Server?",
             "options": [
                 {
-                    "text": "import"
+                    "text": "UNIQUE"
                 },
                 {
-                    "text": "export",
+                    "text": "NULL",
                     "correct": true
                 },
                 {
-                    "text": "async"
+                    "text": "NOT NULL"
                 },
                 {
-                    "text": "constructor"
+                    "text": "CHECK"
                 }
             ],
-            "explanation": "the export keyword allows for the information to be transmitted between files"
+            "explanation": "In SQL Server, NOT NULL specifies that the column does not accept NULL values."
         },
         {
-            "questionText": "Which is an array method to generate a new array based on a condition?",
+            "questionText": "Which of the following feature of SQL Server was used before XML technology for semi structured data?",
             "options": [
                 {
-                    "text": "filter",
+                    "text": "In memory database"
+                },
+                {
+                    "text": "Stored Procedure",
                     "correct": true
                 },
                 {
-                    "text": "map"
+                    "text": "Dynamic management views"
                 },
                 {
-                    "text": "async"
-                },
-                {
-                    "text": "enum"
+                    "text": "None of the mentioned"
                 }
             ],
-            "explanation": "filter is a method used to conditionally create a new array"
+            "explanation": "You need to create a stored procedure to process incoming XML from a partner before SQL Server 2005."
         },
         {
-            "questionText": "How is a property accessible within a class?",
+            "questionText": "Exception handling is possible in SQL Server using _____________",
             "options": [
                 {
-                    "text": "Using this.propertyName",
+                    "text": "THROW",
                     "correct": true
                 },
                 {
-                    "text": "Accessors"
+                    "text": "FINAL"
                 },
                 {
-                    "text": "Destructuring"
+                    "text": "FINALLY"
                 },
                 {
-                    "text": "Arrow function"
+                    "text": "All of the mentioned"
                 }
             ],
-            "explanation": "this.propertyName is the way to access a specific property within a class"
+            "explanation": "Exception handling is possible in SQL Server using THROW. It generates an error message and initiates error processing for the session."
+        },
+        {
+            "questionText": "DML triggers in SQL Server is applicable to _____________",
+            "options": [
+                {
+                    "text": "Update"
+                },
+                {
+                    "text": "Delete"
+                },
+                {
+                    "text": "Insert"
+                },
+                {
+                    "text": "All of the mentioned",
+                    "correct": true
+                }
+            ],
+            "explanation": "In SQL Server we can create triggers on DML statements (like INSERT, UPDATE, and DELETE) and stored procedures that perform DML-like operations."
         }
     ]
 }
